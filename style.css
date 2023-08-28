@@ -1,0 +1,44 @@
+/* Global Style */
+*,
+*::before,
+*::after * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header-container {
+  max-width: 1300px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+#header-section {
+  background-image: url("images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 0%;
+  text-align: right;
+  padding: 100px 0;
+}
+
+#header-section .header-container {
+  max-width: 550px;
+  margin-left: auto;
+}
+
+#header-section h1 {
+  font-size: 65px;
+  color: #151414;
+  font-weight: 700px;
+}
+#header-section p {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+
+}
