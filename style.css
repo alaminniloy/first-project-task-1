@@ -1,7 +1,7 @@
 /* Global Style */
 *,
 *::before,
-*::after * {
+*::after *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -28,6 +28,7 @@ body {
 #header-section .header-article {
   max-width: 550px;
   margin-left: auto;
+
 }
 
 #header-section h1 {
@@ -50,4 +51,15 @@ body {
   font-weight: 600;
   font-size: 20px;
   border: none;
+}
+/* main section */
+#main-section{
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+#main-section> *{
+    width: 50%;
 }
